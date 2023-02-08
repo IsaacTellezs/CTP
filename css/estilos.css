@@ -11,7 +11,11 @@ body{
 }
 h2{
     font-size: 4rem;
-    font-weight: 100;
+    font-weight: 500;
+}
+h3{
+  font-size: 3rem;
+  font-weight: 300;
 }
 
 p{
@@ -21,6 +25,27 @@ p{
 li{
     font-size: 1.3rem;
 }
+
+/* Utilidades */
+.centrar-texto{
+  display: flex;
+  justify-content: center;
+
+}
+
+.fw-300{
+  font-weight: 300;
+}
+.fw-500{
+ font-weight:500;
+}
+  
+.fw-700{
+  font-weight:700;
+ }
+
+
+
 
 /* Botones */
 
@@ -267,4 +292,48 @@ li{
   .info li{
     font-size: 3rem;
     margin: 4rem;
+  }
+
+
+  /* Sección Enfoque */
+
+  .container-frameEnfoque{
+    margin: 0 20rem;
+    display:flex;
+    align-items: center;
+    height: 50rem;
+  }
+
+  .container-frameEnfoque h2{
+    font-weight: 600;
+    font-size: 5rem;
+  }
+
+  .container-frameEnfoque img{
+    width: 50%;
+  }
+
+
+  /* Sección Próximamente*/
+
+  .container-proximamente{
+    background: rgba(139, 140, 137, 0.14);  
+  }
+
+  .container-frameProximamente{
+    margin: 0 20rem;
+  }
+  .container-proximamente h2{
+    padding: 5rem;
+  }
+
+  .cursosProximamente{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  .icono{
+    padding: 4rem;
   }
