@@ -27,6 +27,11 @@ li{
 }
 
 /* Utilidades */
+.marco{
+  margin: 0 20rem;
+}
+
+
 .centrar-texto{
   display: flex;
   justify-content: center;
@@ -89,6 +94,21 @@ li{
     border-width: .1rem;
     border-color: #1A8FDD;
     text-decoration: none;
+}
+
+.boton-newsletter{
+  background: #CC2600;
+  border-radius: .4rem;
+  backdrop-filter: blur(0.2rem);
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ffffff;
+  border-style: solid;
+  border-width: .1rem;
+  border-color: #000000;
+  text-decoration: none;
+  margin: 0;
 }
 
 
@@ -264,7 +284,7 @@ li{
 
   .container-info{
     background: rgba(139, 140, 137, 0.14);  
-    height: 50rem;
+    height: 100%;
   }
 
   .container-frame{
@@ -283,16 +303,48 @@ li{
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10rem;
+    justify-content: space-between;
   }
 
-  .info ul{
-    width: 50%;
-  }
+.info .icono1{
+  display: flex;
+  width: 40%;
+}
+.info .icono1 img{
+  display: flex;
+  padding: 3rem;
+}
 
-  .info li{
-    font-size: 3rem;
-    margin: 4rem;
-  }
+.info .icono2{
+  display: flex;
+  width: 40%;
+}
+.info .icono2 img{
+  display: flex;
+  padding: 3rem;
+}
+
+.info .icono3{
+  display: flex;
+  width: 40%;
+}
+.info .icono3 img{
+  display: flex;
+  padding: 3rem;
+}
+
+.info .icono4{
+  display: flex;
+  width: 40%;
+}
+
+.info .icono4 img{
+  display: flex;
+  padding: 3rem;
+  width: 9rem;
+}
 
 
   /* Sección Enfoque */
@@ -333,7 +385,132 @@ li{
     justify-content: center;
     justify-items: center;
   }
-  
+
   .icono{
     padding: 4rem;
   }
+
+
+  /* Que te ofrece conoce tu pasión */
+  /* Cursante */
+
+  .container-ofrece h2{
+    padding: 5rem;
+  }
+
+  .container-frameOfrece{
+    margin: 0 20rem;
+  }
+
+  .frame-cursante{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10rem;
+  }
+
+  .frame-cursante .texto{
+    width: 50%;
+  }
+
+  .frame-cursante .texto h3{
+    font-size:4.5rem ;
+    padding-bottom: 4rem;
+  }
+
+  .frame-cursante .texto li{
+    font-size:3.2rem ;
+    line-height: 6rem;
+  }
+
+  .frame-cursante img{
+    padding-right: .1rem;
+  }
+
+  /* Creador */
+  .frame-creador{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+    
+  }
+
+  .frame-creador .texto{
+    width: 50%;
+  }
+
+  .frame-creador .texto h3{
+    font-size:4.5rem ;
+    padding-bottom: 4rem;
+  
+  }
+
+  .frame-creador .texto li{
+    font-size:3.2rem ;
+    line-height: 6rem;
+  }
+
+  .frame-creador img{
+    padding-right: .1rem;
+  }
+
+
+   /* Sección categorías */
+   .container-categorias{
+    background: rgba(139, 140, 137, 0.14); 
+    padding: 5rem;
+   }
+
+   .container-frameCategorias{
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .lista-categorias {
+    display: flex;
+    line-height: 2.3rem;
+   }
+
+   .frame-newsletter{
+    justify-content: center;
+    text-align: center;
+   }
+
+   .frame-newsletter input{
+    padding: 1rem;
+    background: rgba(139, 140, 137, 0.34);
+    border-radius: .5rem;
+    border-color: rgba(139, 140, 137, 0.34);;
+   }
+
+   /* Footer*/
+
+   footer{
+    background: rgba(0, 0, 0, 0.71);
+   }
+   .container-fotter{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .logo{
+    width: 40%;
+    padding: 4rem;
+   }
+
+   .redes{
+    justify-content: center;
+    padding: 4rem;
+    
+   }
+   
+  .icono-redes img{
+  padding:.5rem ;
+  width: 6rem;
+  height: 6rem;
+   }
+   
