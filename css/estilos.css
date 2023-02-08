@@ -172,6 +172,11 @@ li{
     background: rgba(139, 140, 137, 0.14);  
     height: 100%;
 }
+.container-frameCursos .cursosDestacados{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
