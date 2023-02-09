@@ -221,11 +221,7 @@ li{
      
     
   }
-  @media only screen and (min-width:320px) and (max-width:768px){
-  .slider, .slider ul, .slider img{
-      height: 100vh;
-  }
-  }
+
 
 
   .slider .curso1{
@@ -353,13 +349,13 @@ li{
 }
 
 
-  /* Sección Enfoque */
+  /* Sección somos */
 
   .container-frameEnfoque{
     margin: 0 20rem;
     display:flex;
     align-items: center;
-    height: 50rem;
+    height: auto;
   }
 
   .container-frameEnfoque h2{
@@ -524,3 +520,242 @@ li{
   height: 6rem;
    }
    
+
+
+   
+/* -- Responsive -- */
+
+@media screen and (max-width: 72rem){
+
+  .barra{
+    margin: 0 auto;
+  }
+
+    /* Principal*/
+
+  .container-main{
+    flex-wrap: wrap;
+  }
+
+  .container{
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .texto .botones a{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-bottom: 3rem;
+  
+  }
+  /* Cursos destacados*/
+
+.container-frameCursos{
+  margin: 0 auto;
+}
+
+
+  /* Cursos recientes*/
+
+  .slider img{
+    width: 50%;
+    height: 90rem;
+}
+
+
+ /* Que es conoce tu pasión*/
+ .container-frame{
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-frame h2{
+  display: flex;
+  text-align: center;
+}
+
+.container-frame .info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+
+}
+.info .icono1{
+  display: flex;
+  width: 100%;
+}
+
+
+.info .icono2{
+  display: flex;
+  width: 100%;
+}
+
+
+.info .icono3{
+  display: flex;
+  width: 100%;
+}
+
+.info .icono4{
+  display: flex;
+  width: 100%;
+}
+
+ /* Seccion somos*/
+ .container-frameEnfoque{
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.container-frameEnfoque h2{
+  font-weight: 600;
+  font-size: 5rem;
+  display: flex;
+  text-align: center;
+}
+
+.container-frameEnfoque img{
+  width: 100%;
+}
+
+  /* Sección Próximamente*/
+
+.container-proximamente{
+    background: rgba(139, 140, 137, 0.14);  
+}
+
+.container-frameProximamente{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cursosProximamente{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.icono{
+  padding: 0rem;
+}
+
+/* Que te ofrece conoce tu pasión */
+  /* Cursante */
+
+  .container-ofrece{
+    margin: 0 auto;
+  }
+
+  .container-ofrece h2{
+    padding: 5rem;
+    display: flex;
+  }
+
+  .container-frameOfrece{
+    margin: 0 auto;
+  }
+
+  .frame-cursante{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 10rem;
+    padding: 2rem;
+    
+  }
+
+  .frame-cursante .texto{
+    width: 100%;
+  }
+
+  .frame-cursante .texto h3{
+    font-size:4.5rem ;
+    padding-bottom: 4rem;
+  }
+
+  .frame-cursante .texto li{
+    font-size:3.2rem ;
+    line-height: 6rem;
+  }
+
+  .frame-cursante img{
+    padding: auto;
+    width: 100%;
+  }
+
+  /* Creador */
+  .frame-creador{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem;
+    
+  }
+
+  .frame-creador .texto{
+    width: 100%;
+  }
+
+  .frame-creador img{
+    width: 60%;
+  }
+
+ 
+  /* Sección categorías */
+  
+  .container-categorias{
+   background: rgba(139, 140, 137, 0.14); 
+   margin: 0 auto;
+   display: flex;
+
+  }
+  .container-frameCategorias{
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 auto;
+  }
+
+
+ /* Footer*/
+
+  footer{
+  background: rgba(0, 0, 0, 0.71);
+ }
+ .container-fotter{
+  margin: 0 auto;
+  flex-wrap: wrap;
+ }
+
+  .logo{
+  width: 40%;
+  padding: 4rem;
+  text-align: center;
+ }
+
+  .redes{
+  justify-content: center;
+  padding: 4rem;
+  
+ }
+ 
+.icono-redes img{
+padding:.5rem ;
+width: 6rem;
+height: 6rem;
+ }
+   
+
+
+}
